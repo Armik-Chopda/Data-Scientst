@@ -18,4 +18,4 @@ print(t2)
 #dict comprehension
 armik={"armik":8,'dhruv':90,'jeel':78,'vasu':56}
 ar={i:j*2 for i,j in armik.items()}
-print(type(ar))
+print(type(ar)) 
