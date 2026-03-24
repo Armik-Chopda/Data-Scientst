@@ -15,7 +15,7 @@ t2=[i for i in t if type(i)==int]
 print(t1)
 print(t2)
 
-#disk comprehension
+#dict comprehension
 armik={"armik":8,'dhruv':90,'jeel':78,'vasu':56}
 ar={i:j*2 for i,j in armik.items()}
-print(ar)
+print(type(ar))
